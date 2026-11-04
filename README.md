@@ -157,6 +157,6 @@ This lab is for learning and authorized testing only.
 
 LinkedIn: https://www.linkedin.com/in/mphodwayidwayi/
 
-##Project Information
+## Project Information
 
 Program Name: Cybersecurity at Networkwalks | Week: 01 | Project: Cybersecurity & Pentesting Lab Setup | Repository: GitHub
