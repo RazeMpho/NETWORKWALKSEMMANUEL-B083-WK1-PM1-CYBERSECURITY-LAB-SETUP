@@ -37,8 +37,6 @@ This project walks through building a safe, repeatable sandbox for practising se
 
 Machines on the same NAT Network can talk to each other and still reach the internet through address translation.
 
-![Kali Linux VM running in VirtualBox](images/kali-running-virtualbox.png)
-*Figure 1: The Kali Linux VM running inside VirtualBox*
 
 ## Environment Details
 
@@ -67,6 +65,7 @@ Install VirtualBox to act as the hypervisor for all lab machines.
 
 ### 3. Create the NAT Network
 In VirtualBox, add a new NAT Network with these settings:
+![3. Create the NAT Network](VirtualBox_setup.jpeg)
 
 - **Name:** NatNetwork
 - **IPv4 prefix:** 10.0.0.0/24
@@ -75,22 +74,21 @@ In VirtualBox, add a new NAT Network with these settings:
 
 A NAT Network was chosen over plain NAT because VMs attached to it can reach each other as well as the outside world, which is exactly what an attacker-and-target lab needs.
 
-![NAT Network settings in VirtualBox](images/nat-network-settings.png)
 *Figure 2: NatNetwork configured with prefix 10.0.0.0/24 and DHCP enabled*
 
 ### 4. Import Kali Linux
 Download the Kali VM from the official Kali website and import it into VirtualBox. Then configure it:
+![4. Import Kali Linux](Kali_Setup.jpeg)
 
 - **Adapter 1:** attached to *NAT Network*, network *NatNetwork*
 - **Adapter type:** Intel PRO/1000 MT Desktop
 - **Memory:** 2048 MB
 - **Shared folder:** set up for moving files between the host and the VM
 
-![Kali Linux VM imported and booted](images/kali-vm-imported.png)
-*Figure 3: The imported Kali Linux VM booted to the desktop*
 
 ### 5. Set the Kali IP Address
 Check the existing network settings in Kali, then apply a fixed address:
+![5. Set the Kali IP Address](kali-running-virtualbox.png)
 
 ```
 IP address:  10.0.0.2
@@ -101,8 +99,6 @@ DNS:         8.8.8.8
 
 A fixed address keeps the lab easy to document and lets later exercises refer to Kali reliably.
 
-![Kali static IP configuration](images/kali-ip-config.png)
-*Figure 4: Manual IPv4 settings for the Kali connection (10.0.0.2/24, gateway 10.0.0.1)*
 
 ### 6. Take a Baseline Snapshot
 Once the configuration is finished, create a snapshot, for example **Clean Kali - Network Setup**. If a later experiment breaks the VM, restore this snapshot to get back to a working state.
