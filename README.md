@@ -155,4 +155,8 @@ This lab is for learning and authorized testing only.
 
 **Mpho**, Cybersecurity at Networkwalks (Week 01, Project: Cybersecurity & Pentesting Lab Setup)
 
-LinkedIn: https://www.linkedin.com/in/waqaskarim/
+LinkedIn: https://www.linkedin.com/in/mphodwayidwayi/
+
+##Project Information
+
+Program Name: Cybersecurity at Networkwalks | Week: 01 | Project: Cybersecurity & Pentesting Lab Setup | Repository: GitHub
