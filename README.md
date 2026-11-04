@@ -34,16 +34,7 @@ This project walks through building a safe, repeatable sandbox for practising se
 ## Architecture
 
 ```
-            Internet
-               |
-        [ VirtualBox NAT ]
-               |
-   NatNetwork  10.0.0.0/24  (gateway 10.0.0.1)
-        |            |             |
-   Kali Linux    Future targets   Future targets
-   10.0.0.2      10.0.0.3 - .99   ...
-```
-
+            
 Machines on the same NAT Network can talk to each other and still reach the internet through address translation.
 
 ## Environment Details
@@ -154,6 +145,11 @@ This lab is for learning and authorized testing only.
 
 ## Author
 
-**Waqas Karim**, Cybersecurity at Networkwalks (Week 01, Project: Cybersecurity & Pentesting Lab Setup)
+**Mpho**, Cybersecurity at Networkwalks (Week 01, Project: Cybersecurity & Pentesting Lab Setup)
 
-LinkedIn: https://www.linkedin.com/in/waqaskarim/
+LinkedIn:  linkedin.com/in/mpho-dwayidwayi 
+
+Project Information
+
+Program Name: Cybersecurity at Networkwalks | Week: 01 | Project: Cybersecurity & Pentesting Lab Setup | Repository: GitHub
+
