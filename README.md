@@ -32,7 +32,7 @@ This project walks through building a safe, repeatable sandbox for practising se
 > **Warning:** Only use this lab against machines you own or have written permission to test. Never aim these tools at systems you are not authorized to assess.
 
 ## Architecture
-
+![Architecture](kali-running-virtualbox.png)
 ```
             Internet
                |
