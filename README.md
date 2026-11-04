@@ -153,6 +153,6 @@ This lab is for learning and authorized testing only.
 
 ## Author
 
-**Waqas Karim**, Cybersecurity at Networkwalks (Week 01, Project: Cybersecurity & Pentesting Lab Setup)
+**Mpho**, Cybersecurity at Networkwalks (Week 01, Project: Cybersecurity & Pentesting Lab Setup)
 
 LinkedIn: https://www.linkedin.com/in/waqaskarim/
