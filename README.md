@@ -33,16 +33,7 @@ This project walks through building a safe, repeatable sandbox for practising se
 
 ## Architecture
 ![Architecture](kali-running-virtualbox.png)
-```
-            Internet
-               |
-        [ VirtualBox NAT ]
-               |
-   NatNetwork  10.0.0.0/24  (gateway 10.0.0.1)
-        |            |             |
-   Kali Linux    Future targets   Future targets
-   10.0.0.2      10.0.0.3 - .99   ...
-```
+
 
 Machines on the same NAT Network can talk to each other and still reach the internet through address translation.
 
