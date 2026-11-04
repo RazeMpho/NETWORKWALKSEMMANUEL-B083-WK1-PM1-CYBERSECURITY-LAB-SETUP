@@ -88,7 +88,7 @@ Download the Kali VM from the official Kali website and import it into VirtualBo
 
 ### 5. Set the Kali IP Address
 Check the existing network settings in Kali, then apply a fixed address:
-![5. Set the Kali IP Address](kali-running-virtualbox.png)
+![5. Set the Kali IP Address](Kali_Net_Setup.jpeg)
 
 ```
 IP address:  10.0.0.2
